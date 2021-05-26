@@ -399,369 +399,174 @@ body{
     flex-direction: row;
 }
 
-@media screen and (max-width: 786px){
-    .container .head{
-        padding: 31px 5px;
-    }
-    #opt{
+@media screen and (max-width: 350px){
+    
+    .banner{
+        width: 235%;
+        height: 165vh;
         position: relative;
-        left: 100px;
+        border-bottom: 0.4rem solid #111;
     }
+
+    .heading{
+        position: static;
+    }
+
     #logo{
-        width: 22%;
+        position: static;
+        width: 80%;
     }
-    .banner .box .heading{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+
+    #opt{
+        left: 11rem;
+        padding: 5px;
+        bottom: 0px;
+        top: 1rem;
     }
-    
+
+    #sign{
+        right: 0px;
+        left: 12rem;
+        bottom: 0px;
+        top: 1.1rem;
+        min-width: 85px;
+    }
+
     .banner .box .heading h2{
-        font-size: 50px;
-        width: 117%;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        width: 100%;
     }
-    
-    .banner .box .heading h5{
-        font-size: 1.8rem;
-    }
-    
+
     .banner .box .heading p{
-        font-size: 26px;
-        padding: 0 0;
-        padding-bottom: 20px;
+        font-size: 1.8rem;
     }
 
     .banner .box .search{
+        position: static;
         flex-direction: column;
     }
 
     .banner .box .search input{
-        min-width: 520px;
-        height: 62px;
+        height: 60px;
+        min-width: 555px;
+        margin: 15px;
     }
-    
-    .banner .box .search a{
-        font-size: 1rem;
-        line-height: 40px;
-        min-width: 145px;
-        margin-top: 20px;
-    }
+
     .part1{
         flex-direction: column;
-        padding: 4rem 0rem;
+        width: 235%;
     }
-    
-    .part1 .talk{
-        width: 80%;
+
+    .part1 .talk {
+        width: 78%;
     }
 
     .part1 .talk h1{
-        font-size: 2.5rem;
-        text-align: center;
+        font-size: 2.3rem;
     }
 
-    .part1 .talk p{
-        text-align: center;
-        font-size: 1.2rem;
+    .part1 .talk p {
+        font-size: 1.3rem;
     }
 
-    .part1 .img1{
-        width: 80%;
+    .part1 .img1 {
+        width: 120%;
     }
 
     .part2{
         flex-direction: column-reverse;
-        padding: 4rem 0rem;
+        width: 235%;
     }
-    
-    .part2 .talk{
-        width: 80%;
+
+    .part2 .talk {
+        width: 78%;
     }
 
     .part2 .talk h1{
-        font-size: 2.5rem;
-        text-align: center;
+        font-size: 2.3rem;
     }
 
-    .part2 .talk p{
-        text-align: center;
-        font-size: 1.2rem;
+    .part2 .talk p {
+        font-size: 1.3rem;
     }
 
-    .part2 .img1{
-        width: 80%;
+    .part2 .img1 {
+        width: 120%;
     }
 
-    .freq{
+    .freq {
         padding: 50px 0px;
+        width: 237%;
     }
 
-    .freq h1{
-        font-size: 41px;
-        margin-bottom: 35px;
+    .freq h1 {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 40px;
     }
 
-    .freq .question button{
-        width: 80%;
-        position: relative;
-        left: 111px;
-        padding: 5px 25px 0px 20px;
-        margin-bottom: 7px;
+    .freq .question button {
+        width: 90%;
+        left: 20px;
         font-size: 25px;
     }
 
-    .freq .question .faq-answer{
-        width: 80%;
-    position: relative;
-    left: 111px;
-    padding: 25px 30px;
-    font-size: 23px;
-    margin-top: -5px;
+    .freq .question .faq-answer {
+        width: 90%;
+        left: 20px;
     }
 
-    .heading2{
-        margin: 30px 100px 20px 100px;
-        font-size: 26px;
-    }
-
-    .heading2 p{
+    .freq .question .box2 .heading2{
         text-align: center;
     }
 
-    .search2{
-        flex-direction: column;
-        position: relative;
-        left: 110px;
-        width: 213px;
-    }
-
     .question .box2 .search2 input{
-        min-width: 510px;
+        min-width: 360px;
         height: 60px;
     }
 
     .question .box2 .search2 a{
-        position: relative;
-        left: 170px;
-        line-height: 40px;
-        font-size: 1.6rem;
-        min-width: 145px;
-        margin-top: 20px;
+        font-size: 1.2rem;
+        min-width: 0px;
+        line-height: 50px;
     }
 
-    .call{
-        margin: 75px 0px 10px 65px;
+    .call {
+        font-size: 11px;
+        margin: 30px 0px 30px 50px;
     }
-
-    #option{
-        left: 62px;
-        top: -15px;
-    }
-
-    .netf p{
-        margin: 20px 70px;
-    }
-
-}
-
-@media screen and (max-width:600px) and (min-width:400px){
-    .container .head{
-        padding: 25px 0 0 0;
-    }
-    #opt{
-        position: relative;
-        left: 300px;
-    }
-    #logo{
-        width: 55%;
-        position: relative;
-        left: 50px;
-    }
-
-    .container .head a{
-        position: relative;
-        left: 300px;
-        padding: 8px 17px;
-    }
-
-    .banner{
-        width: 190%;
-    }
-
-    .banner .box .heading{
+    .info {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
-        text-align: center;
-    }
-    
-    .banner .box .heading h2{
-        font-size: 50px;
-        width: 117%;
-    }
-    
-    .banner .box .heading h5{
-        font-size: 1.8rem;
-    }
-    
-    .banner .box .heading p{
-        font-size: 26px;
-        padding: 0 0;
-        padding-bottom: 20px;
-    }
-
-    .banner .box .search{
-        flex-direction: column;
-    }
-
-    .banner .box .search input{
-        min-width: 520px;
-        height: 62px;
-    }
-    
-    .banner .box .search a{
-        font-size: 1rem;
-        line-height: 40px;
-        min-width: 145px;
-        margin-top: 20px;
-    }
-    .part1{
-        flex-direction: column;
-        padding: 4rem 0rem;
-        width: 195%;
-    }
-    
-    .part1 .talk{
-        width: 80%;
-    }
-
-    .part1 .talk h1{
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .part1 .talk p{
-        text-align: center;
-        font-size: 1.2rem;
-    }
-
-    .part1 .img1{
-        width: 80%;
-    }
-
-    .part2{
-        flex-direction: column-reverse;
-        padding: 4rem 0rem;
-        width: 195%;
-    }
-    
-    .part2 .talk{
-        width: 80%;
-    }
-
-    .part2 .talk h1{
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .part2 .talk p{
-        text-align: center;
-        font-size: 1.2rem;
-    }
-
-    .part2 .img1{
-        width: 80%;
-    }
-
-    .freq{
-        padding: 50px 0px;
-        width: 200%;
-    }
-
-    .freq h1{
-        font-size: 41px;
-        margin-bottom: 35px;
-    }
-
-    .freq .question button{
-        width: 80%;
-        position: relative;
-        left: 111px;
-        padding: 5px 25px 0px 20px;
-        margin-bottom: 7px;
-        font-size: 25px;
-    }
-
-    .freq .question .faq-answer{
-        width: 80%;
-    position: relative;
-    left: 111px;
-    padding: 25px 30px;
-    font-size: 23px;
-    margin-top: -5px;
-    }
-
-    .heading2{
-        margin: 30px 180px 20px 200px;
-        font-size: 26px;
-    }
-
-    .heading2 p{
-        text-align: center;
-    }
-
-    .search2{
-        flex-direction: column;
-        position: relative;
-        left: 200px;
-        width: 210px;
-    }
-
-    .question .box2 .search2 input{
-        min-width: 580px;
-        height: 55px;
-    }
-
-    .question .box2 .search2 a{
-        position: relative;
-        left: 170px;
-        line-height: 40px;
-        font-size: 1.6rem;
-        min-width: 145px;
-        margin-top: 20px;
-    }
-
-    .footer{
-        width:180%
-    }
-
-    .footer ,.info{
-        margin: 0px 150px 30px 0px;
+        margin: 20px 10px 20px 40px;
+        padding: 10px 10px 10px 10px;
     }
 
     .footer .info .c1{
         flex-direction: column;
     }
 
+    .footer .info .c1 ul li{
+        font-size: 9px;
+    }
+
     .footer .info .c2{
         flex-direction: column;
     }
 
-    .call{
-        margin: 75px 0px 10px 200px;
+    .footer .info .c2 ul li{
+        font-size: 11px;
     }
 
     #option{
-        left: 200px;
-        top: -15px;
+        left: 60px;
     }
 
     .netf p{
-        margin: 20px 70px;
-        position: relative;
-        left: 150px;
+        margin: 25px 65px;
     }
+
 }
