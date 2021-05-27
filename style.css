@@ -431,18 +431,18 @@ body{
     }
 
     .banner .box .heading h2{
-        font-size: 1.3rem;
+        font-size: 2rem;
         letter-spacing: 1px;
-        width: 95%;
+        width: 102%;
     }
 
     .banner .box .heading h5 {
-        font-size: 0.8rem;
+        font-size: 1.3rem;
         padding: 0.5rem 0;
     }
 
     .banner .box .heading p {
-        font-size: 0.7rem;
+        font-size: 1rem;
         padding: 10px 0;
     }
 
@@ -491,11 +491,11 @@ body{
     }
 
     .part2 .talk {
-        width: 150%;
+        width: 140%;
     }
 
     .part2 .talk h1{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .part2 .talk p {
@@ -519,7 +519,7 @@ body{
 
     .freq .question button {
         width: 95%;
-        left: 5px;
+        left: 7px;
         font-size: 14px;
         line-height: 35px;
         margin-bottom: 5px;
