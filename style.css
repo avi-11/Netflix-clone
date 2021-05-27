@@ -570,3 +570,177 @@ body{
     }
 
 }
+
+@media screen and (max-width:450px) and (min-width:350px){
+
+    .banner{
+        width: 235%;
+        height: 165vh;
+        position: relative;
+        border-bottom: 0.4rem solid #111;
+    }
+
+    .heading{
+        position: static;
+    }
+
+    #logo{
+        position: static;
+        width: 70%;
+    }
+
+    #opt{
+        left: 11rem;
+        padding: 5px;
+        bottom: 0px;
+        top: 1rem;
+    }
+
+    #sign{
+        right: 0px;
+        left: 12rem;
+        bottom: 0px;
+        top: 1.1rem;
+        min-width: 90px;
+    }
+
+    .banner .box .heading h2{
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+
+    .banner .box .heading p{
+        font-size: 1.8rem;
+    }
+
+    .banner .box .search{
+        position: static;
+        flex-direction: column;
+    }
+
+    .banner .box .search input{
+        height: 60px;
+        min-width: 555px;
+        margin: 15px;
+    }
+
+    .part1{
+        flex-direction: column;
+        width: 185%;
+    }
+
+    .part1 .talk {
+        width: 78%;
+    }
+
+    .part1 .talk h1{
+        font-size: 2.3rem;
+    }
+
+    .part1 .talk p {
+        font-size: 1.3rem;
+    }
+
+    .part1 .img1 {
+        width: 120%;
+    }
+
+    .part2{
+        flex-direction: column-reverse;
+        width: 185%;
+    }
+
+    .part2 .talk {
+        width: 78%;
+    }
+
+    .part2 .talk h1{
+        font-size: 2.3rem;
+    }
+
+    .part2 .talk p {
+        font-size: 1.3rem;
+    }
+
+    .part2 .img1 {
+        width: 120%;
+    }
+
+    .freq {
+        padding: 50px 0px;
+        width: 190%;
+    }
+
+    .freq h1 {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .freq .question button {
+        width: 90%;
+        left: 20px;
+        font-size: 25px;
+    }
+
+    .freq .question .faq-answer {
+        width: 90%;
+        left: 20px;
+    }
+
+    .freq .question .box2 .heading2{
+        text-align: center;
+    }
+
+    .question .box2 .search2 input{
+        min-width: 360px;
+        height: 60px;
+    }
+
+    .question .box2 .search2 a{
+        font-size: 1.2rem;
+        min-width: 0px;
+        line-height: 50px;
+    }
+
+    .call {
+        font-size: 11px;
+        margin: 30px 0px 30px 50px;
+    }
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 10px 20px 40px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .footer .info .c1{
+        flex-direction: column;
+    }
+
+    .footer .info .c1 ul li{
+        font-size: 9px;
+    }
+
+    .footer .info .c2{
+        flex-direction: column;
+    }
+
+    .footer .info .c2 ul li{
+        font-size: 11px;
+    }
+
+    #option{
+        left: 60px;
+    }
+
+    .netf p{
+        margin: 25px 65px;
+    }
+
+
+
+}
