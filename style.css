@@ -594,3 +594,65 @@ body{
         margin: 25px 35px;
     }
 }
+
+@media screen and (max-width:1440px) and (min-width:1024px) {
+    .banner{
+        width: 102%;
+        height: 102vh;
+    }
+
+    .container .head{
+        width: 105%;
+    }
+
+    #logo{
+        width: 20%;
+        bottom: 10px;
+    }
+
+    #opt{
+        left: 250px;
+    }
+
+    #sign{
+        right: 90px;
+    }
+
+    .banner .box .search a{
+        font-size: 1.4rem;
+        min-width: 192px;
+    }
+
+    .banner .box .heading h2{
+        font-size: 3.8rem;
+        width: 93%;
+    }
+
+    .part1 .talk {
+        width: 47%;
+    }
+
+    .part2 .talk {
+        width: 47%;
+    }
+
+    .part2 .talk h1 {
+        font-size: 2.5rem;
+    }
+    
+    .freq{
+        padding: 50px 0px;
+    }
+
+    .call{
+        margin: 75px 0px 30px 180px;
+    }
+
+    #option{
+        left: 180px;
+    }
+
+    .netf p{
+        margin: 20px 200px;
+    }
+}
